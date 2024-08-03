@@ -1,0 +1,85 @@
+.weather{
+    width: 400px;
+    background-color: rgb(34, 34, 174);
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 33%;
+    border-radius: 20px;
+    padding: 40px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search-bar input{
+    width: 180px;
+    height: 29px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 2px solid green;
+    padding: 5px;
+    font-size: 18px;
+}
+.search-bar img{
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
+.weather_icon{
+    width: 120px;
+    height: 80px;
+    margin-top: 30px;
+}
+.weather h2{
+    font-size: 30px;
+    color: white;
+}
+.weather p{
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+.weather-status{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+    width: 100%;
+    margin-top: 40px;
+}
+ .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 22px;
+}
+.col span{
+    display: block;
+    font-size: 18px;
+}
+.col img{
+    display: flex;
+    align-items: center;
+    width: 36px;
+    margin-top: 10px;
+}
+
+.toastpart {
+    margin-right: 43%;
+    z-index: 9999; 
+}
+
+.Toastify__toast--default {
+    background: #333;
+    color: white;
+}
+.Toastify__toast--error {
+    background: white;
+    color: red;
+}
